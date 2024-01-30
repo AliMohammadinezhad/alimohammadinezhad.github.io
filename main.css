@@ -1,0 +1,265 @@
+@font-face {
+  font-family: ubuntu;
+  src: url(src/Ubuntu-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: ubuntu;
+}
+
+body {
+  background-color: #202124;
+}
+
+::selection {
+    background-color: #202124;
+    color: #808080;
+}
+
+h4 {
+  margin-top: 55px;
+}
+
+.item-hr {
+  color: #808080;
+  margin: 0 auto;
+  height: 0.1px;
+  width: 92%;
+}
+
+hr {
+  color: #808080;
+  margin: 0 auto;
+  height: 0.1px;
+}
+
+i.fa {
+  color: #bb86fc;
+}
+
+.label {
+  background-color: #bb86fc;
+  color: #fff;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.pg100 {
+  width: 100%;
+}
+
+.pg90 {
+  width: 90%;
+}
+
+.pg80 {
+  width: 80%;
+}
+
+.pg70 {
+  width: 70%;
+}
+
+.pg60 {
+  width: 60%;
+}
+
+.pg50 {
+  width: 50%;
+}
+
+.pg40 {
+  width: 40%;
+}
+
+.pg30 {
+  width: 30%;
+}
+
+.pg20 {
+  width: 20%;
+}
+
+.pg10 {
+  width: 10%;
+}
+
+.pg0 {
+  width: 0%;
+}
+
+.container {
+  width: 98%;
+  padding: 1%;
+}
+
+.left-side {
+  background-color: #303134;
+  display: inline-block;
+  width: 25%;
+  margin: 0.5%;
+  vertical-align: top;
+  border-radius: 3px;
+  font-family: ubuntu;
+}
+
+#profile-box {
+  position: relative;
+}
+
+#profile-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 3px 3px 0px 0px;
+}
+
+#profile-name {
+  width: 96%;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-size: 21px;
+  text-align: center;
+  text-shadow: 0px 0px 8px  #000000;
+  padding: 2%;
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+}
+
+#description-box {
+  padding: 15px;
+}
+
+#description-box ul {
+  list-style: none;
+}
+
+#description-box ul li {
+  margin-bottom: 10px;
+}
+
+#description-box ul li span a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#description-box ul li i.fa {
+  color: #bb86fc;
+  font-size: 18px;
+}
+
+#description-box ul li span {
+  color: #fff;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.left-items {
+  padding: 15px;
+  color: #fff;
+  margin: 5px 0 25px;
+}
+
+.item-title {
+  margin-left: 10px;
+}
+
+.skill-item {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.progress-box {
+  background-color: #eee;
+  border-radius: 15px;
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.progress-bar {
+  background-color: #bb86fc;
+  padding: 2px;
+  border-radius: 15px;
+}
+
+.right-side {
+  display: inline-block;
+  width: 72%;
+  margin: 0.5%;
+}
+
+.right-side section {
+  background-color: #303134;
+  margin-bottom: 2%;
+  border-radius: 3px;
+  padding: 30px;
+}
+
+#head-title {
+  font-size: 32px;
+  color: white;
+}
+
+.right-side-item {
+  color: #fff;
+}
+
+.right-side-item h3,
+.right-side-item h4 {
+  margin: 30px 0;
+}
+
+.right-side-item h4 i {
+  margin-right: 5px;
+}
+
+.right-side-item p {
+  margin: 15px 0 40px;
+}
+
+footer {
+  background-color: #bb86fc;
+  width: 100%;
+  height: 20px;
+  font-style: bold;
+  font-family: ubuntu;
+  text-decoration: underline;
+  text-align: center;
+  padding: 10px 0;
+  color: #fff;
+}
+
+
+@media only screen and (max-width: 768px) {
+  
+  .left-side {
+    display: block;
+    width: 99%;
+  }
+  .right-side {
+    display: block;
+    width: 99%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #head-title {
+    font-size: 23px;
+  }
+
+  .right-side-item h3 {
+    font-size: 16px;
+  }
+
+  .right-side-item h3,
+  .right-side-item h4 {
+    margin: 10px 0;
+  }
+
+  footer {
+    font-size: small;
+  }
+}
